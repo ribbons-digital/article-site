@@ -1,0 +1,32 @@
+.card {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.article {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  height: 150px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 16px;
+}
+
+.button {
+  margin: 16px;
+}
+
+.searchInput {
+  margin: 16px;
+}
